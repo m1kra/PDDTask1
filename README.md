@@ -3,7 +3,7 @@
 # First BigData Assignment
 
 ## Installation
-This project utilizez Vagrant.
+This project utilizes Vagrant.
 To build the environment and run the program, simply type `make`.
 However, beware that the program may take quite some time to run 
 (the main reason is the number of combinations in src/clustering.pu -> cluster function).
@@ -18,7 +18,7 @@ Clustering solution is written in pyspark in `src` dir. The program does a littl
 and then computes clusters for varius sets of parameters (length of shingles, binary / count of occurance vectors).
 After the program finishes it produces one artifact - report.md file, which contains the report.
 
-This report can also be wied in realtime in log files. They are accessible at the the addres:
+This report can also be viewed in realtime in log files. They are accessible at the the addres:
 
 ```
 http://192.168.69.2:8088/cluster/app/<APP_ID>
